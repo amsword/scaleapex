@@ -7,7 +7,7 @@ Some background can be found [here](http://jianfengwang.me/A-simple-way-to-combi
 ```shell
 git clone https://github.com/amsword/scaleapex
 cd scaleapex
-python setup build develop
+python setup.py build develop
 ```
 
 # Example
