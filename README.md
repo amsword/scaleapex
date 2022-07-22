@@ -1,5 +1,7 @@
 # ScaleApex
-This repo implements a simple way to combine apex and fairscale
+This repo implements a simple way to combine [apex](https://github.com/NVIDIA/apex) 
+and [fairscale](https://github.com/facebookresearch/fairscale).
+Some background can be found [here](http://jianfengwang.me/A-simple-way-to-combine-fairscale-and-apex/).
 
 # Installation
 ```shell
@@ -12,4 +14,3 @@ python setup build develop
 ```shell
 mpirun -n 2 python example/example.py
 ```
-Some explanations can be found [here]()
