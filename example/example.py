@@ -35,6 +35,9 @@ def test_scaleapex():
             **extra_param,
             )
 
+    from fairscale.nn.data_parallel import ShardedDataParallel as ShardedDDP
+    model = ShardedDDP(model, optimizer)
+
     scaler = dynamic_scaler()
     max_iter = 10
     batch_size = 16
